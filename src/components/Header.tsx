@@ -8,7 +8,7 @@ export default function Header({ className }: HeaderProps) {
       <div className="flex justify-between items-center">
         <div className="text-white text-sm uppercase tracking-wide font-bold leading-tight">
           Мансуровское месторождение
-          <div className="text-sm font-bold tracking-wide">гранита</div>
+          <div className="text-sm font-bold tracking-wide ml-12">гранита</div>
         </div>
         <nav className="flex gap-8">
           <a
