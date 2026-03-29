@@ -55,7 +55,7 @@ export default function Footer() {
               <h1 className="text-[14vw] sm:text-[12vw] lg:text-[10vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
                 ГРАНИТ
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Башкирская Гранитная Компания</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Мансуровское месторождение</p>
             </div>
           </div>
         </div>
