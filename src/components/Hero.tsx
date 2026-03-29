@@ -32,7 +32,7 @@ export default function Hero() {
           alt="Башкирская гранитная компания"
           className="mx-auto mb-6 w-36 md:w-52 lg:w-56 object-contain drop-shadow-2xl"
         />
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-none">
           ГРАНИТНЫЙ<br />ЩЕБЕНЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
