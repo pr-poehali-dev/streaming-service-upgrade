@@ -36,7 +36,7 @@ export default function Hero() {
           ГРАНИТНЫЙ<br />ЩЕБЕНЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
-          Прочность миллионов лет в каждом кубометре. Поставляем щебень 16 фракций — от отсева 0–4 до булыги 100–150 мм — прямо с карьера.
+          Прочность миллионов лет в каждом кубометре. Поставляем щебень 16 фракций — от отсева 0–4 до отсева 100–150 мм — прямо с карьера.
         </p>
         <a href="#contact" className="inline-block bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300">
           Получить прайс
