@@ -27,7 +27,11 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/40 z-[1]" />
       <div className="relative z-10 text-center text-white px-6">
-        <p className="uppercase tracking-widest text-sm mb-4 opacity-80">Мансуровское месторождение</p>
+        <img
+          src="https://cdn.poehali.dev/projects/05316209-5a4e-466b-826d-0ef97cbd83de/bucket/71df3769-bab5-47e2-9893-fc1ab2007fa6.jpg"
+          alt="Башкирская гранитная компания"
+          className="mx-auto mb-6 w-48 md:w-64 lg:w-72 object-contain drop-shadow-2xl"
+        />
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
           ГРАНИТНЫЙ<br />ЩЕБЕНЬ
         </h1>
