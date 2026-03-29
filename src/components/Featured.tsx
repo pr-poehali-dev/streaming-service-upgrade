@@ -15,7 +15,7 @@ export default function Featured() {
         </p>
         <div className="grid grid-cols-3 gap-6 mb-8">
           <div>
-            <p className="text-3xl font-bold text-neutral-900">1000+</p>
+            <p className="text-3xl font-bold text-neutral-900">100+</p>
             <p className="text-sm text-neutral-500 uppercase tracking-wide mt-1">Объектов построено</p>
           </div>
           <div>
