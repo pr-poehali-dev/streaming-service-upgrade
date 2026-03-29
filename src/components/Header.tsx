@@ -23,6 +23,12 @@ export default function Header({ className }: HeaderProps) {
           >
             Заказать
           </a>
+          <a
+            href="#granite-products"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+          >
+            Гранитные изделия
+          </a>
         </nav>
       </div>
     </header>
