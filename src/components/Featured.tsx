@@ -19,7 +19,7 @@ export default function Featured() {
             <p className="text-sm text-neutral-500 uppercase tracking-wide mt-1">Объектов построено</p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-neutral-900">3 фракции</p>
+            <p className="text-3xl font-bold text-neutral-900">4 фракции</p>
             <p className="text-sm text-neutral-500 uppercase tracking-wide mt-1">В наличии на складе</p>
           </div>
           <div>

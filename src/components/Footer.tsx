@@ -28,6 +28,12 @@ export default function Footer() {
                 >
                   Фракция 40–70 мм
                 </a>
+                <a
+                  href="#frac4"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Фракция 70–150 мм
+                </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
