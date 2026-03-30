@@ -10,6 +10,12 @@ export default function Header({ className }: HeaderProps) {
           Мансуровское месторождение
           <div className="text-sm font-bold tracking-wide ml-24">гранита</div>
         </div>
+        <div className="flex items-center gap-8">
+          <div className="text-right hidden sm:block">
+            <a href="tel:+79871372409" className="block text-white/80 hover:text-white text-sm tracking-wide transition-colors">+7 987 137-24-09</a>
+            <a href="tel:+79272327900" className="block text-white/80 hover:text-white text-sm tracking-wide transition-colors">+7 927 232-79-00</a>
+          </div>
+        </div>
         <nav className="flex gap-8">
           <a
             href="#about"
