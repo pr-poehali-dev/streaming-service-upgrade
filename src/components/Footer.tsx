@@ -31,6 +31,7 @@ export default function Footer() {
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
                 <a href="tel:+79272327900" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">+7 927 232-79-00</a>
                 <a href="tel:+79871372409" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">+7 987 137-24-09</a>
+                <a href="mailto:bgkgranit@yandex.ru" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base">bgkgranit@yandex.ru</a>
                 <a
                   href="#order"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
