@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Featured from "@/components/Featured";
 import Catalog from "@/components/Catalog";
 import Promo from "@/components/Promo";
+import ContactForm from "@/components/webapp/ContactForm";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <Featured />
       <Catalog />
       <Promo />
+      <ContactForm />
       <Footer />
     </main>
   );

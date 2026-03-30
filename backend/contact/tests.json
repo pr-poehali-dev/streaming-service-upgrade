@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "name": "Отправка заявки",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Иван Иванов", "phone": "+7 900 123-45-67", "message": "Нужен щебень 20-40"},
+      "expectedStatus": 200,
+      "expectedBody": {"success": true},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Заявка без имени — ошибка",
+      "method": "POST",
+      "path": "/",
+      "body": {"phone": "+7 900 000-00-00"},
+      "expectedStatus": 400,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
