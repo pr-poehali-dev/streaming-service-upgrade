@@ -25,9 +25,19 @@ export default function GraniteCatalog() {
     <section id="granite-products" className="bg-neutral-50 px-6 py-16 lg:py-24">
       <div className="max-w-6xl mx-auto">
         <h3 className="uppercase text-sm tracking-wide text-neutral-500 mb-3">Изделия из гранита</h3>
-        <h2 className="text-3xl lg:text-5xl font-bold text-neutral-900 mb-12 leading-tight">
-          Гранитные изделия<br />под заказ
-        </h2>
+        <div className="flex flex-wrap items-end gap-4 mb-12">
+          <h2 className="text-3xl lg:text-5xl font-bold text-neutral-900 leading-tight">
+            Гранитные изделия<br />под заказ
+          </h2>
+          <a
+            href="https://cdn.poehali.dev/projects/05316209-5a4e-466b-826d-0ef97cbd83de/bucket/4a285e8d-0506-4823-82eb-c251d550b31e.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm uppercase tracking-wide border border-neutral-300 text-neutral-600 hover:border-neutral-900 hover:text-neutral-900 transition-colors duration-200 px-4 py-2 rounded"
+          >
+            Скачать прайс-лист
+          </a>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-px bg-neutral-200">
           {items.map((item) => (
             <div
